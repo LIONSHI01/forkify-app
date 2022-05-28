@@ -46,6 +46,7 @@ export const loadRecipe = async function (id) {
   }
 };
 
+// Read data from fetch API
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
