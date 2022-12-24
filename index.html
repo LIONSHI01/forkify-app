@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Project Linkify is an API consuming application page for searching food recipes. It allow users to search over 1,000,000 recipes, boomark recipes as favorites and even create new recipe and upload to database. "
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
       rel="stylesheet"
@@ -13,13 +17,16 @@
     <link rel="stylesheet" href="src/sass/main.scss" />
     <script type="module" src="src/js/controller.js"></script>
 
-    <title>forkify // Search over 1,000,000 recipes</title>
+    <title>Search over 1,000,000 recipes | Linkify</title>
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <img src="src/img/logo.png" alt="Logo" class="header__logo" />
+        <div class="header__logoBox">
+          <img src="src/img/logo-sm.png" alt="Logo" class="header__logo" />
+          <span>Linkify</span>
+        </div>
         <form class="search">
           <input
             type="text"
@@ -120,17 +127,18 @@
             </svg>
           </button> -->
         </div>
-
-        <p class="copyright">
-          &copy; Copyright by
-          <a
-            class="twitter-link"
-            target="_blank"
-            href="https://twitter.com/jonasschmedtman"
-            >Jonas Schmedtmann</a
-          >. Use for learning or your portfolio. Don't use to teach. Don't claim
-          as your own.
-        </p>
+        <div class="author">
+          <p class="copyright">&copy; Copyright by Linkify</p>
+          <p>
+            Welcome to visit other projects on
+            <a
+              class="website-link"
+              target="_blank"
+              href="https://www.lionshi.io"
+              >https://www.lionshi.io</a
+            >
+          </p>
+        </div>
       </div>
 
       <div class="recipe">

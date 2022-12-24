@@ -29,14 +29,24 @@
   }
 }
 
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-grey-dark-2;
+  .website-link:link,
+  .website-link:visited {
+    color: $color-grey-dark-2;
+    text-decoration: none;
+  }
+  .website-link:hover {
+    color: $color-primary;
+  }
+}
+
 .copyright {
   color: $color-grey-dark-2;
   font-size: 1.2rem;
   padding: 0 3.5rem;
   margin-top: 4rem;
-
-  .twitter-link:link,
-  .twitter-link:visited {
-    color: $color-grey-dark-2;
-  }
 }
