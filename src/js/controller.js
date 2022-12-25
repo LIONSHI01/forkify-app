@@ -102,7 +102,6 @@ const controlAddRecipe = async function (newRecipe) {
 
     //Upload the new recipe data
     await model.uploadRecipe(newRecipe);
-    console.log(model.state.recipe);
 
     //Render added recipe
     recipeView.render(model.state.recipe);
@@ -136,4 +135,3 @@ const init = function () {
   addRecipeView.addHandlerUpload(controlAddRecipe);
 };
 init();
-console.log('test');
