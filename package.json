@@ -1,17 +1,18 @@
 {
-  "name": "starter",
+  "name": "linkify",
   "version": "1.0.0",
-  "description": "",
+  "description": "Recipe application",
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
   },
   "author": "mrlion",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "sass": "^1.57.1"
   },
   "dependencies": {
     "core-js": "^3.22.4",
