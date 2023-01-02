@@ -10,5 +10,5 @@
 
 ## :star: Technical details
 
-- Frontend framework: HTML5, CSS
+- Frontend framework: HTML5, SASS
 - NPM managed workflows.
