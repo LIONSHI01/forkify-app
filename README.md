@@ -1,3 +1,14 @@
-# linkify Project
+## Frontend Recipe Search App 👨‍💻
 
-Recipe application with custom recipe uploads
+[![](https://img.shields.io/badge/Gmail-lionshi2012%40gmail.com-red)](mailto:lionshi2012@gmail.com)
+
+## :star: Features
+
+- Recipe search
+- Upload / Edit recipe to database
+- Add recipe to bookmark
+
+## :star: Technical details
+
+- Frontend framework: HTML5, CSS
+- NPM managed workflows.
